@@ -4,7 +4,7 @@ node ('Win10') {
 
                   "arti" : "foxconn,inventec,wistron,insyde",
                   "generation" : "16G",
-                  "email" : hawk.sun@dell.com,
+                  "email" : hawk.sun
                   "branch" : "main",
                   "script" : "",
                 ],
