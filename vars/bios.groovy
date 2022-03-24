@@ -4,7 +4,7 @@ node ('Win10') {
 
                   "arti" : "foxconn,inventec,wistron,insyde",
                   "generation" : "16G",
-                  "email" : hawk.sun
+                  "email" : "hawk.sun@dell.com",
                   "branch" : "main",
                   "script" : "",
                 ],
@@ -12,16 +12,16 @@ node ('Win10') {
       "EagleMnt" : [
                   "arti" : "foxconn",
                   "generation" : "16G",
-                  "email" : hawk.sun@dell.com
+                  "email" : "hawk.sun@dell.com",
                   "branch" : "main",
                   "script" : "",
-                               "build_dir" : "Build_Genoa",
+                  "build_dir" : "Build_Genoa",
                 ],
 
       "Brazos" : [
                   "arti" : "foxconn",
                   "generation" : "16G",
-                  "email" : bbbb@dell.com
+                  "email" : "bbbb@dell.com",
                   "branch" : "main",
                   "script" : "",
                                "build_dir" : "Build_Genoa",
@@ -30,7 +30,7 @@ node ('Win10') {
       "MonteCarlo" : [
                   "arti" : "foxconn,inventec,wistron,compal",
                   "generation" : "15G",
-                  "email" : bbbb@dell.com
+                  "email" : "bbbb@dell.com",
                   "branch" : "stg/15g_main",
                   "script" : "",
                 ],
