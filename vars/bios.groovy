@@ -4,7 +4,7 @@ node ('Win10') {
 
                   "arti" : "foxconn,inventec,wistron,insyde",
                   "generation" : "16G",
-                  "email" : aaaa@dell.com,
+                  "email" : hawk.sun@dell.com,
                   "branch" : "main",
                   "script" : "",
                 ],
@@ -12,7 +12,7 @@ node ('Win10') {
       "EagleMnt" : [
                   "arti" : "foxconn",
                   "generation" : "16G",
-                  "email" : bbbb@dell.com
+                  "email" : hawk.sun@dell.com
                   "branch" : "main",
                   "script" : "",
                                "build_dir" : "Build_Genoa",
