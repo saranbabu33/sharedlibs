@@ -14,12 +14,12 @@ def call(Map config=[:]){
             buildDiscarder(logRotator(numToKeepStr: '30'))
         }
 
-        parameters {
+         /*parameters {
             gitParameter (
                 branch: '', 
                 branchFilter: 'origin/(.*)', 
                 defaultValue: 'master', 
-                listSize: '10', )
+                listSize: '10', ) */
                
 
             choice(
