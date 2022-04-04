@@ -1,3 +1,9 @@
+import groovy.transform.Field
+
+import groovy.json.JsonSlurper
+import groovy.json.JsonBuilder
+import jenkins.model.*
+
 def call(Map config=[:]){
     node {
         settings.config(config)
