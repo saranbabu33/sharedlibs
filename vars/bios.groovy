@@ -1,8 +1,15 @@
 import groovy.transform.Field
-
 import groovy.json.JsonSlurper
 import groovy.json.JsonBuilder
 import jenkins.model.*
+    
+    class Config implements Serializable {
+    static Map data     = [
+        locale          : 'bois'
+    ]
+
+    static Map settings = [:]
+}
 
 def call(Map config=[:]){
     node {
