@@ -5,7 +5,7 @@ import jenkins.model.*
     
     class Config implements Serializable {
     static Map data     = [
-        locale          : 'bois'
+        locale          : 'bios'
     ]
 
     static Map settings = [:]
