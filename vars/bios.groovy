@@ -1,12 +1,9 @@
-class my_vars {
-    static Map varMap = [:]
-    static def loadVars (Map config) {
-        varMap.var1 = "val1"
-        varMap.var2 = "val2"
-        varMap.var1 = "val3"
-        varMap.var2 = "val4"
-        // Many more variables ...
+package com.test.demo
 
-        return varMap
-    }
-}
+def Lagos = [
+        'arti' : 'foxconn',
+        'generation' : '16G',
+        'email' : 'aaaa@dell.com',
+        'branch' : 'main',
+        'script' : '',
+    ]
